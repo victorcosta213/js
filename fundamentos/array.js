@@ -1,5 +1,5 @@
 const valores= [1.2,2.5,3.6,5.1]
-
+console.log("testando o github")
 console.log(valores[2],valores[3])
 console.log(valores[4])
 valores[4]=10
