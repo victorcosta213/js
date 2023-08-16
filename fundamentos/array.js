@@ -12,3 +12,4 @@ console.log(valores.length)
 delete valores[2]
 console.log[valores.length]
 
+
