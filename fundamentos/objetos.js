@@ -6,6 +6,6 @@ prod1.desconto= 0.25
 console.log(prod1)
 
 const prod2= { nome:"caneca", valor: 35.90, desconto: 0.3}
-prod2.valor= 40,00
+prod2.valor= 40
 console.log(prod2)
 

@@ -19,4 +19,4 @@ const cliente= {
 
 console.log(saudacao)
 console.log(exe())
-console.log(cliente)
+console.log(cliente.endereço)

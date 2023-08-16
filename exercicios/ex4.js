@@ -1,0 +1,40 @@
+function nomedomes(x){
+    if(x==1){
+        console.log("janeiro")
+    } 
+    if(x==2){
+        console.log("fevereiro")
+    }
+    if(x==3){
+        console.log("março")
+    }
+    if(x==4){
+        console.log("Abril")
+    }
+    if(x==5){
+        console.log("maio")
+    }
+    if(x==6){
+        console.log("junho")
+    }
+    if(x==7){
+        console.log("julho")
+    }
+    if(x==8){
+        console.log("agosto")
+    }
+    if(x==9){
+        console.log("setembro")
+    }
+    if(x==10){
+        console.log("outubro")
+    }
+    if(x==11){
+        console.log("novembro")
+    }
+    if(x==12){
+        console.log("dezembro")
+    }
+}
+
+nomedomes(11)
