@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Letra from "./components/Letra";
+import Numero from "./components/Numero";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+       Math.random() < 0.5 ? <Letra/> : <Numero/>
+
+
+      }
     </div>
   );
 }
